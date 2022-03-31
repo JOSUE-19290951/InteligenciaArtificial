@@ -75,7 +75,7 @@ print("Neuronas: ", neuronas)
 cad = ""
 for i in range(neuronas):
     for j in range(entradas):
-        cad += str(pesos[i][j] + ",")
+        cad += str(pesos[i][j]) +  ","
 
 arch = open('pesosNotG.txt', "w")
 arch.write(cad[:len(cad)-1])
