@@ -1,6 +1,11 @@
 import numpy as np
 from random import random
-p = np.array([[1.5,-0.3,0],[0.9,0.05,0],[2.1,0.2,0],[0.24,-0.87,1],[0.45,-0.6,1],[0.15,-0.43,1]])   #patron de entradas que incluye el bias
+p = np.array([[1.5,-0.3,0],
+              [0.9,0.05,0],
+              [2.1,0.2,0],
+              [0.24,-0.87,1],
+              [0.45,-0.6,1],
+              [0.15,-0.43,1]])   #patron de entradas que incluye el bias
 
 SE = np.array([0,0,0,1,1,1]) #Salidad esperadas
 
